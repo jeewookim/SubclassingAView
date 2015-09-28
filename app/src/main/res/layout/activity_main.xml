@@ -17,7 +17,7 @@
         android:background = "@color/red"
         android:id = "@+id/topLeft"
         android:gravity = "center"
-        android:textSize = "30dp"/>
+        android:textSize = "35dp"/>
 
     <com.example.a2016jkim.subclassingaview.MyTextView
         android:layout_width="100dp"
@@ -27,7 +27,7 @@
         android:background = "@color/yellow"
         android:id = "@+id/bottomLeft"
         android:gravity = "center"
-        android:textSize = "30dp"/>
+        android:textSize = "35dp"/>
 
     <com.example.a2016jkim.subclassingaview.MyTextView
         android:layout_width="100dp"
@@ -37,7 +37,7 @@
         android:background = "@color/blue"
         android:id = "@+id/topRight"
         android:gravity = "center"
-        android:textSize = "30dp"/>
+        android:textSize = "35dp"/>
 
     <com.example.a2016jkim.subclassingaview.MyTextView
         android:layout_width="100dp"
@@ -47,7 +47,7 @@
         android:background = "@color/purple"
         android:id = "@+id/bottomRight"
         android:gravity = "center"
-        android:textSize = "30dp"/>
+        android:textSize = "35dp"/>
 
     <!--
     <TextView
