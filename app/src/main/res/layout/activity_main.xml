@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.example.a2016jkim.subclassingaview.MyTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop = "true"
+        android:background = "@color/red"
+        android:id = "@+id/topLeft"
+        android:gravity = "center"
+        android:textSize = "30dp"/>
+
+    <com.example.a2016jkim.subclassingaview.MyTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom = "true"
+        android:background = "@color/yellow"
+        android:id = "@+id/bottomLeft"
+        android:gravity = "center"
+        android:textSize = "30dp"/>
+
+    <com.example.a2016jkim.subclassingaview.MyTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop = "true"
+        android:background = "@color/blue"
+        android:id = "@+id/topRight"
+        android:gravity = "center"
+        android:textSize = "30dp"/>
+
+    <com.example.a2016jkim.subclassingaview.MyTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom = "true"
+        android:background = "@color/purple"
+        android:id = "@+id/bottomRight"
+        android:gravity = "center"
+        android:textSize = "30dp"/>
+
+    <!--
+    <TextView
+    android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:initialValue="@integer/zero"
+        android:textSize="30dp"
+        android:id="@+id/myView001"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:background="#f00"
+        android:textColor="#000"/>
+    -->
+
+
+</RelativeLayout>
