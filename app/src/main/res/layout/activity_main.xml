@@ -9,45 +9,45 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <com.example.a2016jkim.subclassingaview.MyTextView
+    <com.example.jkim.subclassingaview.MyView
+        app:initialValue="@integer/zero"
+        app:textSize="50"
+        android:id="@+id/top_left"
+        android:background="#f00"
+        android:textColor="#000"
         android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop = "true"
-        android:background = "@color/red"
-        android:id = "@+id/topLeft"
-        android:gravity = "center"
-        android:textSize = "35dp"/>
+        android:layout_height="100dp" />
 
-    <com.example.a2016jkim.subclassingaview.MyTextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom = "true"
-        android:background = "@color/yellow"
-        android:id = "@+id/bottomLeft"
-        android:gravity = "center"
-        android:textSize = "35dp"/>
-
-    <com.example.a2016jkim.subclassingaview.MyTextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+    <com.example.jkim.subclassingaview.MyView
+        app:initialValue="@integer/zero"
+        app:textSize="50"
+        android:id="@+id/top_right"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop = "true"
-        android:background = "@color/blue"
-        android:id = "@+id/topRight"
-        android:gravity = "center"
-        android:textSize = "35dp"/>
-
-    <com.example.a2016jkim.subclassingaview.MyTextView
+        android:background="@color/foo"
+        android:textColor="#000"
         android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_height="100dp" />
+
+    <com.example.jkim.subclassingaview.MyView
+        app:initialValue="@integer/zero"
+        app:textSize="50"
+        android:id="@+id/bottom_left"
+        android:background="@color/blue"
+        android:textColor="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.example.jkim.subclassingaview.MyView
+        app:initialValue="@integer/zero"
+        app:textSize="50"
+        android:id="@+id/bottom_right"
+        android:background="@color/purple"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom = "true"
-        android:background = "@color/purple"
-        android:id = "@+id/bottomRight"
-        android:gravity = "center"
-        android:textSize = "35dp"/>
+        android:textColor="#000"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
 
     <!--
     <TextView
