@@ -1,4 +1,5 @@
 package com.example.a2016jkim.subclassingaview;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Rect;
 import android.support.v7.app.AppCompatActivity;
@@ -40,6 +41,14 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         view4 = (MyView)findViewById(R.id.bottom_right);
         view4.setOnTouchListener(this);
 
+        Button newapp = (Button) findViewById(R.id.goback);
+        newapp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.example.a2016jkim.activitylifecycle");
+                startActivity(launchIntent);
+            }
+        }
+        );
     }
 
     @Override
